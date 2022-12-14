@@ -4,7 +4,7 @@ library(pracma)
 library(matrixStats)
 library(doParallel)
 
-# for parallel computing
+# for parallel computation
 cores <- getOption("mc.cores", detectCores())
 cl <- makeCluster(cores)
 registerDoParallel(cl)
